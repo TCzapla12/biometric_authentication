@@ -1,3 +1,3 @@
 Authors:
-	Client: Natalia Kwasek
-	Server: Tomasz Czaplicki
+- client: Natalia Kwasek
+- server: Tomasz Czaplicki
