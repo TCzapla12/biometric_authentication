@@ -1,0 +1,17 @@
+version: "3.9"
+
+networks:
+  int_network:
+
+services:
+  serverrest:
+    image: tczaplic/application:serverrest
+    ports:
+      - published: 8080
+        target: 80
+      - published: 44300
+        target: 443
+    networks:
+      - int_network
+    deploy:
+      replicas: 1
